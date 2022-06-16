@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var nome = window.prompt('Olá, primeiro digite seu nome:')
+        window.alert(`Olá ${nome}!`)
+        window.alert(`Percebi que seu nome tem ${nome.length} letras!`)
+        window.alert('Vamos começar nosso teste com coisas simples.')
+
+        var numero1 = Number(window.prompt('Primeiro, digite um número qualquer.'))
+        var numero2 = Number(window.prompt('Agora digite outro número aleatório.'))
+        var soma = numero1 + numero2
+        window.alert(`A soma dos números que você escolheu foi ${soma}!`)
+
+        window.alert('Legal, não é? Agora vamos fazer outro teste, mais legal ainda.')
+        var palavra1 = String(window.prompt('Primeiro digite um nome qualquer.'))
+        var palavra2 = String(window.prompt('Agora digite qualquer verbo que vier em sua mente, no passado, presente ou futuro.'))
+        var palavra3 = String(window.prompt('Por fim, pense em um animal, esporte ou objeto e escreva seu nome abaixo.'))
+        var frase = palavra1 +' ' + palavra2 + ' ' + palavra3
+        window.alert(`A frase gerada por você foi: ${frase}!`)
+        
+        window.alert(`Por hoje é só, ${nome}. Até um próximo dia!`)
+    </script>
+</body>
+</html>

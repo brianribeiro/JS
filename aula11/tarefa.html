@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando a nacionalidade</title>
+</head>
+<body>
+    <h1>Bem-vind@ ao teste de nacionalidade!</h1>
+    <h2>Aqui você tem a ferramenta mais inútil que serve para descobrir sua nacionalidade!</h2>
+    <p>Primeiro, digite o país em que nasceu:</p>
+    <div>
+        <input type="text" name="txt12" id="txt1">
+        <input type="button" value="verificar" onclick="descobrir()">
+    </div>
+    <p>Boa! Vamos ao resultado.</p>
+    <div id="resposta">
+
+    </div>
+
+    <script>
+        var res = document.getElementById('txt1')
+        var país = 'Brasil'
+        var resposta = document.getElementById('resposta')
+
+        function descobrir() {
+            resposta.innerHTML = '<p>Segundo nosso banco de dados limitadíssimo, você é:</p>'
+            if (res.value == país) {
+                resposta.innerHTML +=  '<strong>BRASILEIR@</strong>'
+            } else {
+                resposta.innerHTML += '<strong>ESTRANGEIR@</strong>'
+            }
+            resposta.innerHTML += '<p>Obrigado por perder seu tempo conosco</p>.'
+        }
+    </script>
+</body>
+</html>

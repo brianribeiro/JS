@@ -1,0 +1,78 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 600px;
+    background-color: rgb(0, 73, 0);
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+header{
+    background-color: white;
+    margin: 5px;
+    padding: 0px 3px 5px 3px;
+    border-radius: 5px 5px 0px 0px;
+    text-align: center;
+}
+
+h1#titulo{
+    font-size: 2.5em;
+}
+
+p#subtitulo{
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+section{
+    background-color: white;
+    margin: 5px;
+    padding: 10px 5px;
+    text-align: center;
+}
+
+input#ano{
+    width: 80px;
+    height: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.199);
+    text-align: center;
+    font-weight: bold;
+    font-size: 16pt;
+}
+
+input#botao{
+    width: 45px;
+    height: 25px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+input#botao:hover{
+    cursor: pointer;
+    background-color: rgb(0, 73, 0);
+    color: white;
+    transition: 0.4s;
+}
+
+img#escudo{
+    margin: 30px 10px 10px 10px;
+}
+
+p#res{
+    font-weight: bold;
+    font-style: italic;
+}
+
+footer{
+    background-color: white;
+    margin: 5px;
+    padding: 3px 3px;
+    border-radius: 0px 0px 5px 5px;
+    text-align: center;
+}
+
+footer p{
+    font-weight: bold;
+}
